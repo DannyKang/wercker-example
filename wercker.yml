@@ -50,3 +50,21 @@ deploy-pipe:
   - script:
     name: step new five
     code: echo "Step new Five"
+
+deploy-dev:
+  steps:
+  - script:
+    name: step dev one
+    code: echo "Step dev One"
+  - script:
+    name: step dev two
+    code: echo "Step dev Two"
+  - script:
+    name: step dev three
+    code: echo "Step dev Three"
+  - script:
+    name: step dev  four
+    code: echo "Step dev Four"
+  - script:
+    name: step dev  five
+    code: echo "Step dev Five"
