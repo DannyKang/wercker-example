@@ -32,7 +32,8 @@ build:
   - script:
     name: step five
     code: echo "Step Five"
-deploy:
+
+deploy-pipe:
   steps:
   - script:
     name: step one
