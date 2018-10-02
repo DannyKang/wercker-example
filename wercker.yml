@@ -36,17 +36,17 @@ build:
 deploy-pipe:
   steps:
   - script:
-    name: step one
-    code: echo "Step One"
+    name: step new one
+    code: echo "Step new One"
   - script:
-    name: step two
-    code: echo "Step Two"
+    name: step new two
+    code: echo "Step new Two"
   - script:
-    name: step three
-    code: echo "Step Three"
+    name: step new three
+    code: echo "Step new Three"
   - script:
-    name: step four
-    code: echo "Step Four"
+    name: step new four
+    code: echo "Step new Four"
   - script:
-    name: step five
-    code: echo "Step Five"
+    name: step new five
+    code: echo "Step new Five"
